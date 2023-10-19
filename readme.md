@@ -56,3 +56,33 @@ cd javaScript-assignm
 ```sh
 shortcut default browser : ALT + B or SHIFT + ALT + B
 ```
+
+### Data Test Resource users Mockapi -> (Gunakan name & password) -> ingat logout.
+
+ {
+  "createdAt": "2023-10-17T19:31:54.222Z",
+  "name": "Arik07",
+  "img_avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/385.jpg",
+  "role": "admin",
+  "password": "arik07",
+  "status_login": "off",
+  "id": "1"
+ },
+ {
+  "createdAt": "2023-10-17T19:24:09.286Z",
+  "name": "Hary Mahayana2",
+  "img_avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+  "role": "user",
+  "password": "qqDOqxm3ce6FBye",
+  "status_login": "off",
+  "id": "2"
+ },
+ {
+  "createdAt": "2023-10-17T12:29:19.957Z",
+  "name": "Hary Mahayana4",
+  "img_avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/333.jpg",
+  "role": "user",
+  "password": "bn_iX23FZ7TQjdv",
+  "status_login": "off",
+  "id": "4"
+ },
