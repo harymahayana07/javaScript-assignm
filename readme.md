@@ -4,18 +4,17 @@ Project ini bertujuan untuk mengimplementasikan saran mentor untuk penggunaan Mo
 
 ### Tampilan SignIn & SignUp /index.html
 
-<img src="url_gambar_1" width="300" /> <img src="url_gambar_2" width="300" />
-<img src="url_gambar_1" width="300" /> <img src="url_gambar_2" width="300" />
-
-### Tampilan role Admin -> Admin.html
-
-<img src="url_gambar_3" width="300" /> <img src="url_gambar_4" width="300" />
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-1.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-2.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-3.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-4.jpg" width="300" />
 
 ### Tampilan role User -> Home.html
 
-<img src="url_gambar_4" width="300" /> <img src="url_gambar_5" width="300" />
-<img src="url_gambar_6" width="300" /> <img src="url_gambar_7" width="300" />
-<img src="url_gambar_8" width="300" /> <img src="url_gambar_9" width="300" />
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-5.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-6.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-7.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-8.jpg" width="300" />
+
+### Tampilan role Admin -> Admin.html
+
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-9.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-10.jpg" width="300" />
 
 ### Fitur role User :
 
@@ -41,6 +40,19 @@ Project ini bertujuan untuk mengimplementasikan saran mentor untuk penggunaan Mo
 
 ### Instalasi
 
-Git Clone & Run
+1️⃣ Clone the repository.
+```sh
+git clone https://github.com/harymahayana07/javaScript-assignm.git
+```
 
+2️⃣ Navigate to repo directory.
 
+```sh
+cd javaScript-assignm
+```
+
+3️⃣ Now Running with Default Browser.
+
+```sh
+shortcut default browser : ALT + B or SHIFT + ALT + B
+```
