@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Hary - Javascript Assignment</title>
+	<link rel="shortcut icon" href="https://hary-portfolio.000webhostapp.com/assets/img/icon-nama.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/nav.css" />
+    <link rel="stylesheet" href="./src/css/wishlist.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="container-nav">
+          <div class="nav-left">
+            <img
+              class="nav-image"
+              src="https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_1280.png"
+              alt="Image-user"
+            />
+          </div>
+          <div class="nav-user">
+            <p id="user-name"></p>
+            <p id="login-status"></p>
+          </div>
+        </div>
+        <div class="nav-right">
+          <button class="nav-button" id="logout-button">Logout</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="header-container">
+        <div class="header">
+          <h3>Buat Wish List 2024 Kamu :</h3>
+          <form id="new-wish-form">
+            <div class="form-input">
+              <input
+                type="text"
+                name="new-wish-input"
+                id="new-wish-input"
+                placeholder="Apa Harapan Kamu di 2024"
+                required
+              />
+              <input
+                type="text"
+                name="new-solution-input"
+                id="new-solution-input"
+                placeholder="Solusi dari Harapan Kamu?"
+                required
+              />
+            </div>
+            <input type="submit" id="new-wish-submit" value="Add Wish" />
+          </form>
+        </div>
+      </section>
+      <section class="wish-list">
+        <h2>Daftar Wish Kamu :</h2>
+        <div id="wishs">
+          <!-- <div class="task">
+            <div class="content">
+              <input type="text" class="text" value="A new task" readonly />
+              <input type="text" class="price" placeholder="Price" />
+              <input type="text" class="image-url" placeholder="Image URL" />
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/admin.js"></script>
+    <script src="./src/js/wishlist.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const loggedInUser = localStorage.getItem("loggedInUser");
+        const user = JSON.parse(loggedInUser);
+
+        if (user.status_login == "on") {
+          // Periksa peran pengguna dan arahkan ke halaman yang sesuai
+          if (user.role !== "user") {
+            window.location.href = "index.html";
+          } 
+        }
+      });
+    </script>
+  </body>
+</html>

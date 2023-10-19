@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hary - Javascript Assignment</title>
+    <link
+      rel="shortcut icon"
+      href="https://hary-portfolio.000webhostapp.com/assets/img/icon-nama.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/admin.css" />
+    <link rel="stylesheet" href="./src/css/nav.css" />
+    <link rel="stylesheet" href="./src/css/userlist.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="container-nav">
+          <div class="nav-left">
+            <img
+              class="nav-image"
+              src="https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_1280.png"
+              alt="Image-user"
+            />
+          </div>
+          <div class="nav-user">
+            <p id="user-name"></p>
+            <p id="login-status"></p>
+          </div>
+        </div>
+        <div class="nav-right">
+          <button class="nav-button" id="logout-button">Logout</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="header-container">
+        <!-- menampilkan user login menggunakan foreach ambil array yang status loginnya on -->
+        <h1 class="list-h1">Daftar Pengguna</h1>
+        <ul id="userList"></ul>
+      </section>
+      <section>
+        <h1 class="list-h1">Daftar Pengguna yang Sedang "On"</h1>
+        <ul id="onlineUserList"></ul>
+      </section>
+      <section>
+        <!-- menampilkan wish list responsive-->
+      </section>
+    </main>
+    <script src="./src/js/admin.js"></script>
+    <script src="./src/js/user_data.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const loggedInUser = localStorage.getItem("loggedInUser");
+        const user = JSON.parse(loggedInUser);
+
+        if (user.status_login == "on") {
+          // Periksa peran pengguna dan arahkan ke halaman yang sesuai
+          if (user.role !== "admin") {
+            window.location.href = "index.html";
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
