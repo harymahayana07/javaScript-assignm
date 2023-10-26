@@ -1,3 +1,4 @@
+// wishlist 2024 app
 function createWishElement(wish, solution) {
   const wish_el = document.createElement("div");
   wish_el.classList.add("wish");

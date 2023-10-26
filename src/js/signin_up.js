@@ -35,7 +35,7 @@ async function loginUser(username, password) {
 
     if (user) {
       user.status_login = "on";
-      // Using method PUT or PATCH for send API
+      // Using method PUT or PATCH for send Mockapi
       const updateResponse = await fetch(`${apiUrl}/${user.id}`, {
         method: "PUT",
         headers: {

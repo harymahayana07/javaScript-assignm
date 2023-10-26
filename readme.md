@@ -94,6 +94,7 @@ shortcut default browser : ALT + B or SHIFT + ALT + B
   "status_login": "off",
   "id": "4"
  },
+ 
 1️⃣ Clone the repository.
 ```sh
 git clone https://github.com/harymahayana07/javaScript-assignm.git

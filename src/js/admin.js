@@ -12,7 +12,7 @@ function checkLogin() {
   }
 }
 
-// Fungsi untuk logout
+// Fungsi untuk logout 
 function logoutUser() {
   const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
   // Update status_login menjadi "off"

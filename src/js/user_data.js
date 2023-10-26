@@ -1,4 +1,4 @@
-// URL API untuk data pengguna
+// URL MockAPI untuk data pengguna/user
 const apiUrl =
   "https://652e1354f9afa8ef4b2804b8.mockapi.io/api/v1/js-assignm/users";
 
