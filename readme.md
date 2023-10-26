@@ -11,9 +11,17 @@ Project ini bertujuan untuk mengimplementasikan saran mentor untuk penggunaan Mo
 
 <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-5.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-6.jpg" width="300" />
 <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-7.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-8.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-1.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-2.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-3.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-4.jpg" width="300" />
+
+### Tampilan role User -> Home.html
+
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-5.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-6.jpg" width="300" />
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-7.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-8.jpg" width="300" />
 
 ### Tampilan role Admin -> Admin.html
 
+<img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-9.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-10.jpg" width="300" />
 <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-9.jpg" width="300" /> <img src="https://raw.githubusercontent.com/harymahayana07/javaScript-assignm/main/src/img/img-10.jpg" width="300" />
 
 ### Fitur role User :
@@ -40,6 +48,52 @@ Project ini bertujuan untuk mengimplementasikan saran mentor untuk penggunaan Mo
 
 ### Instalasi
 
+1️⃣ Clone the repository.
+```sh
+git clone https://github.com/harymahayana07/javaScript-assignm.git
+```
+
+2️⃣ Navigate to repo directory.
+
+```sh
+cd javaScript-assignm
+```
+
+3️⃣ Now Running with Default Browser.
+
+```sh
+shortcut default browser : ALT + B or SHIFT + ALT + B
+```
+
+### Data Test Resource users Mockapi -> (Gunakan name & password) -> ingat logout.
+
+ {
+  "createdAt": "2023-10-17T19:31:54.222Z",
+  "name": "Arik07",
+  "img_avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/385.jpg",
+  "role": "admin",
+  "password": "arik07",
+  "status_login": "off",
+  "id": "1"
+ },
+ {
+  "createdAt": "2023-10-17T19:24:09.286Z",
+  "name": "Hary Mahayana2",
+  "img_avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+  "role": "user",
+  "password": "qqDOqxm3ce6FBye",
+  "status_login": "off",
+  "id": "2"
+ },
+ {
+  "createdAt": "2023-10-17T12:29:19.957Z",
+  "name": "Hary Mahayana4",
+  "img_avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/333.jpg",
+  "role": "user",
+  "password": "bn_iX23FZ7TQjdv",
+  "status_login": "off",
+  "id": "4"
+ },
 1️⃣ Clone the repository.
 ```sh
 git clone https://github.com/harymahayana07/javaScript-assignm.git
