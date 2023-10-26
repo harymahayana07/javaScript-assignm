@@ -74,17 +74,17 @@
     <script src="./src/js/admin.js"></script>
     <script src="./src/js/wishlist.js"></script>
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
+      function checkLoggedInUser() {
         const loggedInUser = localStorage.getItem("loggedInUser");
         const user = JSON.parse(loggedInUser);
 
         if (user.status_login == "on") {
-          // Periksa peran pengguna dan arahkan ke halaman yang sesuai
           if (user.role !== "user") {
             window.location.href = "index.html";
-          } 
+          }
         }
-      });
+      }
+      checkLoggedInUser();
     </script>
   </body>
 </html>

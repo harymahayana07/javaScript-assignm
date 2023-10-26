@@ -39,4 +39,5 @@ async function fetchAndDisplayUsers() {
   }
 }
 
+// Panggil fungsi fetchAndDisplayUsers saat dokumen dimuat
 fetchAndDisplayUsers();

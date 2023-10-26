@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hary - Javascript Assignment</title>
-	<link rel="shortcut icon" href="https://hary-portfolio.000webhostapp.com/assets/img/icon-nama.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="https://hary-portfolio.000webhostapp.com/assets/img/icon-nama.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./src/css/login.css" />
-	
-	
   </head>
   <body>
     <div class="login-wrap">
@@ -28,9 +30,7 @@
           <!-- signin -->
           <form id="login-form">
             <div class="sign-in-htm">
-			  <div id="login-status" class="alert">
-                Registrasi berhasil.
-              </div>
+              <div id="login-status" class="alert">Registrasi berhasil.</div>
               <div class="group">
                 <label for="login-username" class="label">Username</label>
                 <input id="login-username" type="text" class="input" required />
@@ -86,20 +86,18 @@
       </div>
     </div>
     <script src="./src/js/signin_up.js"></script>
-	<script>
-      document.addEventListener("DOMContentLoaded", function () {
+    <script>
+      function checkLoggedInUser() {
         const loggedInUser = localStorage.getItem("loggedInUser");
         const user = JSON.parse(loggedInUser);
 
         if (user.status_login == "on") {
-          // Periksa peran pengguna dan arahkan ke halaman yang sesuai
-          if (user.role === "admin") {
-            window.location.href = "admin.html";
-          }else if (user.role === "user") {
-			 window.location.href = "home.html";
-		  }
+          if (user.role !== "admin") {
+            window.location.href = "index.html";
+          }
         }
-      });
+      }
+      checkLoggedInUser();
     </script>
   </body>
 </html>
